@@ -1,12 +1,15 @@
 {
- "$schema": "http://json.schemastore.org/swcrc",
- "module": {
- "type": "commonjs",
-
- // These are defaults.
- "strict": false,
- "strictMode": true,
- "lazy": false,
- "noInterop": false
- }
+  "$schema": "http://json.schemastore.org/swcrc",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "dynamicImport": true
+    },
+    "target": "ESNext",
+    "baseUrl": "."
+  },
+  "module": {
+    "type": "commonjs"
+  }
 }

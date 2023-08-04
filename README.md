@@ -16,18 +16,9 @@ Provides linting for classnames constructed using a tag.
 $ yarn add --save-dev eslint eslint-plugin-template-literal-tag-classname
 ```
 
-```
-$ npm install --save-dev eslint eslint-plugin-template-literal-tag-classname
-```
-
-### Requirements
-
-- Node.js v8.10.0 or newer versions.
-- ESLint v5.16.0 or newer versions.
-
 ## Usage
 
-Write your config file such as `.eslintrc.yml`.
+Write your config file such as `.eslintrc.js`.
 
 ```json
 {
@@ -69,9 +60,3 @@ This plugin follows [Semantic Versioning](http://semver.org/) and [ESLint's Sema
 Welcome your contribution!
 
 See also [ESLint Contribution Guide](https://eslint.org/docs/developer-guide/contributing/).
-
-### Development Tools
-
-- `yarn run test` runs tests.
-- `yarn run update` updates the package version. And it updates `src/configs/recommended.ts`, `lib/index.ts`, and `README.md`'s rule table.
-- `yarn run add-rule <RULE_ID>` creates three files to add a new rule.
