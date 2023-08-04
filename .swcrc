@@ -6,7 +6,7 @@
       "tsx": false,
       "dynamicImport": true
     },
-    "target": "ESNext",
+    "target": "esnext",
     "baseUrl": "."
   },
   "module": {

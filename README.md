@@ -24,7 +24,7 @@ Write your config file such as `.eslintrc.js`.
 {
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "template-literal-tag-classname/example-rule": "error"
+    "template-literal-tag-classname/no-deeply-nested": "error"
   }
 }
 ```
@@ -43,7 +43,7 @@ See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 
 | Rule ID                                                                     | Description      |     |
 | :-------------------------------------------------------------------------- | :--------------- | :-: |
-| [template-literal-tag-classname/example-rule](./docs/rules/example-rule.md) | An example rule. | ⭐️ |
+| [template-literal-tag-classname/no-deeply-nested](./docs/rules/no-deeply-nested.md) | Tags should not start too close to the print width. | ⭐️ |
 
 <!--RULE_TABLE_END-->
 
